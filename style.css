@@ -1,0 +1,289 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+h1 {
+    margin: 0 auto;
+}
+
+.top-section {
+    background-color: #2b2b2b;
+    color: #f2f2f2;
+    display: flex;
+    min-height: 22vh;
+}
+
+.header-text {
+    align-items: flex-end;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1.5rem;
+    width: 35%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: .75rem;
+}
+
+.header-one {
+    width: 5.25rem;
+}
+
+.header-two {
+    width: 6.5rem;
+}
+
+.header-three {
+    width: 5.25rem;
+}
+
+.svgs {
+    height: 1rem;
+    width: 1rem;
+}
+
+.header-links {
+    color: #f2f2f2;
+    text-decoration: none;
+}
+
+.header-links:hover {
+    font-weight: 700;
+    opacity: 1;
+}
+
+.heads {
+    opacity: .5;
+}
+
+.right-header {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    padding-right: 2rem;
+    width: 65%;
+}
+
+.right-nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    height: 2.5rem;
+    padding-top: .5rem;
+    width: 10rem;
+}
+
+.nav-input:hover {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.profile-white {
+    border: .5px solid #f3f3f3;
+    border-radius: 10px;
+    opacity: .5;
+    padding: 1px 1px;
+}
+
+.nav-input {
+    color: #2c93cb;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.arrow-svg {
+    height: 0.75rem;
+    width: 0.75rem;
+}
+
+.arrow-svg:hover {
+    cursor: pointer;
+    height: 1rem;
+    width: 1rem;
+}
+
+.last-header {
+    display: flex;
+    height: 4rem;
+    justify-content: flex-end;
+}
+
+.winner-text {
+    align-items: center;
+    display: flex;
+    font-size: x-large;
+    justify-content: space-between;
+    height: 4rem;
+    padding-top: 2.5rem;
+    width: 9.5rem;
+}
+
+.ribbon-svg {
+    height: 2rem;
+    width: 2rem;
+}
+
+.cards-section {
+    background-color: #efefef;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.cards-header {
+    align-items: center;
+    color: #4d4d4d;
+    display: flex;
+    height: 5rem;
+    opacity: .75;
+    padding: 0 1.5rem;
+    width: 6rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 32rem;
+    margin: 14px 0;
+    min-width: 300px;
+    position: static;
+    width: 23%;
+}
+
+.images {
+    height: 24vh;
+    opacity: .65;
+    width: 100%;
+    z-index: 0;
+}
+
+.next-svg {
+    background-color: white;
+    border-radius: 100px;
+    height: 2.25rem;
+    margin: .5rem .5rem;
+    padding: 1rem 1rem;
+    position: absolute;
+    width: 2.25rem;
+    z-index: 1;
+}
+
+.next-svg:hover {
+    cursor: pointer;
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.viewer {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    min-width: 18rem;
+    position: absolute;
+    width: 22%;
+    z-index: 1;
+}
+
+.views {
+    color: #2b2b2b;
+    font-size: x-large;
+    font-weight: 700;
+    margin-top: .25rem;
+}
+
+.view-num {
+    color: #f3f3f3;
+    font-size: 40px;
+    font-weight: 700;
+    padding-right: .5rem;
+}
+
+.card-text {
+    color: #696969;
+}
+
+.alpaca-name {
+    margin: 15px 2%;
+}
+
+.card-url {
+    background-color: #dfdfdf;
+    font-size: small;
+    margin: 1rem 2.5% ;
+    min-height: 4rem;
+    padding: .5% 2.5% 0;
+    width: 90%;
+
+}
+
+.alpaca-site {
+    color: #696969;
+    text-overflow: hidden;
+    white-space: nowrap;
+}
+
+.alpaca-site:hover {
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.card-para {
+    font-size: .7rem;
+    margin: 1.5rem 3% .5rem;
+    width: 30%;
+}
+
+.songs {
+    margin: 0 3%;
+    min-height: 2.4rem;
+}
+
+.song {
+    color: #67B3B3    ;
+    font-size: large;
+}
+
+.song:hover {
+    color: blue;
+}
+
+.attach-num {
+    color: #37bbfe;
+    font-size: xx-large;
+    margin: 0 3%;
+}
+
+@media screen and (max-width: 970px) {
+    .header-text {
+        align-items: flex-start;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0 10px;
+    }
+    .cards-header {
+        margin-top: 5px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        min-width: 320px;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .top-section {
+        min-height: 160px;
+    }
+}
+
