@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Static Comp 2</title>
+</head>
+<body>
+    <section class="top-section">
+        <article class="header-text">
+            <span class="header header-one">
+                <img class="svgs" src="images/share.svg" alt="Save Icon">
+                <a class="header-links heads" href="">SHARES</a>
+            </span>
+            <span class="header header-two">
+                <img class="svgs" src="images/bulleted-list.svg" alt="bullet list svg">
+                <a class="header-links heads" href="">PLAYLISTS</a>
+            </span>
+            <span class="header header-three">
+                    <img class="svgs" src="images/user.svg" alt="Profile svg">
+                    <a class="header-links heads" href="">VIDEOS</a>
+            </span>
+        </article>
+        <article class="right-header">
+            <span class ="right-nav">
+                <img class="svgs profile-white" src="images/user.svg.white.svg" alt="White Profile svg">
+                <a class="nav-input" href="">Admin Username</a>
+                <img class="arrow-svg" src="images/arrows.svg" alt="arrow point to down">
+            </span> 
+            <span class="last-header">
+                <div class="winner-text">
+                    <h1>2Cute!</h1>
+                    <img class="ribbon-svg" href="" src="images/lineal-ribbons.svg" alt="ribbon svg">
+                </div>
+            </span>
+        </article>
+    </section>
+    <section class="cards-section">
+        <div class="cards-header">
+            <h1 class="bottom-header-text">Shares</h1>
+        </div>
+        <aside class="row">
+            <article class="card card-1">
+                <section>
+                    <span class="viewer">
+                        <div class="views">Views</div>
+                        <div class="view-num">06</div>
+                    </span>
+                    <img class="next-svg" src="images/next.svg" alt="next button">
+                    <img class="images" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMVFhUXFhcZGRgYGB0XGhoXFxcXFxgYFxoYHSggGBolHRgXITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGy0lHiUtLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIALcBEwMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAIDBQYBBwj/xAA3EAABAwIFAgQFAgYDAAMAAAABAAIRAyEEBRIxQVFhBhMicTKBkaHwsdEVI0JiweEUUvEHJHL/xAAaAQADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/8QAJxEAAgICAgIBAwUBAAAAAAAAAAECERIhAzFBUWETIjJScYGRoQT/2gAMAwEAAhEDEQA/AO6gbtSNfgi6dRZHRO1TMwvnxg7mncFPbUt1K45jeCk0cbJqVASjEGIO3VcB/uSiOhTDfcFMCdzgUhVAF0N5XSVISbSEYgStfyApf+TxCGpyNinBjgdwQpoZKCCZlSPrN7KJrBM2UYEk7FLsB9F7DwEQQ0KBtEdFNTyuo8+kE9h7SFSi5aQD3va0cLlJ3KNp5FUcfU0wE+tktUQGsJE37J/RnXQ6AA6+whc8tpur2n4cqEcAqsfltQOLA2SLmEfRmvANAtKNhsibbQFHRwj2ySw/5UrqNpNlag0SzsiNlyx7JlFoFpunObeZToQFjcK2DAKiwggciFbGEG7V0ELOYxja8m1wpWPixUDXxaBKT64G8rJxYyWI6wmteDsojXPChdWcDOmyagwsLmO64QDuEK7FxuCm/wDJvIRiwsKAG0p407KAVeyj1zzCWwCwAo6tEbKAOIdYyFI5zTdOh2dGCb/2P1SSHuki5ewKqqSLzdOp1CQh20nNMudKbXEmWyt0lRFhrw1u64+sQJAkKChUtcFKdJO8dlKQE8u3GymdiyBcIdlaRtZOLHHY2RXsCXzpuAQpRWKFbSeO65SaSbEjqm0vABbr7FJ7hEGUN5Dp+L2UjA6Q0wZSaGSNZA9Jn3VjlmXl9gIPNiRfb8KsMg8OeYPU6AR37e32lahraWFZJ0kzuFvDgvb6KSAsv8OiPWCOPqLx2Vp5Lmj+W0SIG0WG11ncw8TueCGkNAMi8FBU8/c17TrmTe9rncHod9l0xgl0jRKjYiu7T6gJP59kn13abXP59lk8xzu7mNc1wedQLXaoPSbcoShn1YGJIZBO09vlflXiOzY4cw6X1G2ExsEdSqMcbRO/+15fiM5l4k3K0eUZq4yGiSbT+0pUBr6mGY42DZ6x91m80yWqXEhpI4jYBE4LMXB0uH3kfUWWhoYgO7d0OKkqZEkedVsA5phwIPeyjNOLLceIsO4sljo62E/pKwtQFt7x1K5+SGOjNoT3QCgzUgXSrkukcIM4YuM6oHRYOnoAjzLiyk1dUO0yQL2UpnYrOUaAc1wJuo6rBwUvKneylo4WOVPQAnkGd00YcyrAsbsmFnATyCgOoHQutaCLo1zTFwh3YMEzKnIDsAC2yhqgRefklVwg2BKlZSIEcIVDIAR3SRPkpI0ALVLRuU0EDcygsQ1xGpjZPdOwtZxaQ9sHsrx0SGuFrKBlYg7AqrOZuB0GwlGCpOxF1eFdj0FucegSFWSBEdVBh6hNt09+JAtoIPVTTEEh5abbJjgbgIeliGkR6gQdkQdQvFkNNaAQc6BPCusjy0Vj8Q1C8ReBy079Lcqnp0Q6QXQT3Wl8P0RSguB9N5NnAHkzu35c7quOCbGkanFVWYahY3Im8yfr8155m2cOqEkkxJXc+zepVe65ImAO3Cz9as4WXpKJrZIMYeRY/nup8NVcAIHp77oBjSTc9x+xTK2Jql1oDQtFXZLbLmvTY71NEOEc7/4Q2JzJ7qobrIgCQLSJtIG/uqnFY9wsDDu3TuoaNV5qaywx/wBv9dFS34JLenUYapBAMyZm4P8AhXNDS0Wc6I63/RZKhiGsqTETYq/pVBEqWMtTmEAAPmOv7K5yzOzAl30WG1l82gTfv7qwov0gR9FlKLWzROz1vL8a2o2B0usn4lc0GCxwjY2v7wf2U3hd7nRJgDgn9k7xI86pJDmRyJjsCBMfNY8juIpKjG4hoOzlFSDhsQQia2i5aI91DTN7NC4dozZLQJ7J1R5khPZTHCGrM1W1QUlt2If5YAT2tcRAdCBYx7XbyidOxNuyJANqOc0WN13znCPTPcJugE2Jtwmim4H4rdE2kARVe7rCaHyU5zJ3KjrUzYhJUMKpVG+0JOdKEovEw5SGs3qpx2A1xg7pJtSoJSTpgVVHMNLoddp2UlSreQE+pl0G0EDhE0qdrgey2ljeiQMMDruaJT2sbw2T2TxUaDBbvZS4EEG2w2Cql7AFY1rjbU0z0RLyRvBsgaVKuKpcSNMmyVRtSSNJM89knHfYIMp4kf7ThX7IWi9zLGnZdpVSd/kFGPwMs6Dw2QWTP9zf9lX+Vea9okjy4hupsEdYcSbLN0aomI0+/P7LTeH5d6Bqmdpt3WvFKpUNGTzRxY9zYFiVQYite62Pi/LRSre9/wB1g/EGN0GG7r0Emy7SLTDOJHpIPupCXG0R91k8DnRBEgX6FafL8Q5wu0z+XWiRDZ1uCEyeiscJhORBXKNBztgjcNgKmoDq1xHy2WqRDYDjMtF3R0P7pzmWjqFq6OQ1HsuRP5uqTM8sqUiWEaSO0yOoPRJpAmVVWu1gUOXYgVHxrH1Wd8SYWowEiS3kyfv2Vl/8e5RVq66jf6dMDrJMrKUb7NIv0eu5RgS3C6mmHkm56Abf7VHmGPxQtrBN92tFv/1pH1svRMkp/wAhjSNJAAI6GLx2WU8XZZBkkgcOBj7Ew4/Q+65ebjdWhtmVbVLhLwzV2TadIwhalATq1Te8H91K3SNibrgZBIWKGWk7J5rtgi6ZQqgmzY7pfsBKx3QJoeeVK8bXCDxBcDNk1sCd47QmFw5EoZ+IcPj2XG4cv9bHEdkY1+wE9t0g5xFiLpYfWJkyE3ECL3+SEvkYzyng/EFK6jyd1AMYJvdStaTfVZNtrsRK24u1JCl/9ySmgJa1Ib67qJtx8QSfSa8SQY7Id+CY1ttQ7rTvdiCy2/VdDiOYKHwDSZbJsLTypKmuQQB/cDuiSGRtrlpkmfdPxVZ5Ac28b+yVZxgv0SAEJgcX5jSNEJ1exMsmVPMbYgELhok2I43CHwkt9IbCIpgO5IjhQ010A7AZdVe4M3B3d0HVa5tRmHYKVIX5PP8A6hcCfKpCB63CfYcD/KqcVWJd+fddvBFJW+zRROZ9V8wb369FiMxy4FrwbmJ7ytVWeqrEWcCul/AIyeRZK5ztbx6RsOpWzosDQm0AE6q+AfYrRSRFAWYeIhTOlkR1ROB8SumegP6Lz1zXvLvc9UXgcTAvuLfshthSNxX8cVmXa6Nv8q9wPi9mMp+XUH80XBiLcryqsw1XBoJsOOqtsiy6oysx7ZOlw5Ox3BSrdhfg19WgHWIkfgWp/wDjrLW0nO0ix4/SFRMBLyA078LU5E/ymumxI25/N0py0OK2bSrjWMfTYZDqkhsC3paXGegj9QhM+paqThvyRx/r5IilV9DCRNt/f9EnHjcH6rNu1RVHjOPzWmyq6k5mkjeefbhPoV2VJa12wV7418LsFQ1wydW5WbOUObBY4N6rz5xjHRA7EhwG0+y417osL/5UlfCuGz4P2QOmqwyHB3VQmmtCCKOJcCdQsfsp6eJpfCTJXKbdQk2PRN8iJNvkkmOwpx9NocO6gd6j6THZD18O5zQKfzKBLcVSaQGh0bJqOtMLLR7iLLj8dpAJaSqvCY9/wvaZJVocUBGo2Sca7QWNc0PEsiR1Vc9uIaDs6flCuGYum7kDqUPiKoaQQC4HoqT9oAWjjakDVSukjQ49ElP8AI7Sw3G6gfmzjDAwzyq+nqpuLDqlFnMiAAGhxm60xYrCjXqG2kTw5Q1aTpDnOOodEc9wfT9JDSosNgql5I7FZ5JL0BzD1HubLbCYIIU9GmBuBfgKEU9NnVLjdNpYWmTIe6espJq9jLihQa6JbZW9DJGxqDWu7Df5yh8rOkD1bfdEZliOAQAuuGNFpIhqVYJBHq78IDFN1Hok7ENH9QnkyueaJHK0sqwV2FlUOYUZsNwVrTVgOI6FZauJKuErE6IcvqWhwgqfED0mBMoWq+C094Ri2IKJuXhlyJVFmFAGoYtZbDGskGFlMfSIi1yfz3Wilonycy6p5T+oK9D8OFtQbi+4/CvOcOzSbyZW78HaWuBI/PldLJSQ+jYYqloi7otYQB+qCxVSXNHSPfeUTi8RJDmkiJtMf+qkw2IHmk9Soa0NPZ6bg8YPJZquJjvsiazrAA73adxPQ+6z9VhOEeBxBHJFuO6rsmzgwKVUmD6dR3Dv6HTxO3y7lc0ppOmaGlrVRWY5jgARIIPB5B/O68rzHKa1Os5oq2mQDvHRb+piXOJIEVWRqH/dg5/P0WX8R4UV4h5BbOkzxy0+24/ysuVpomStFC5uIZOoAjqLqWjqb63N33XGsq026Z1dypPI1i7t+FzN+yCV7RIiYKndSG0wh6VBzBBJjqmYtsgEGSOFn8JjRNWogCGOgqPzqhbBEH9VWAPF7+26J8+BJdAHVaYuhENXEvHAlNaS61TYqeviWhoOoQdlHhceJAJDulla30gJGYOk0RwisO1jRYoXEPsT9Ah6Got+H5cocG12CDXYcdXJIZlOoRMOC4in7Cw4YjUZcAhq+Da1804E7zsE0YsPdBpkdyn+bTnS6wSjcUA6QBEgnshKWZ1NUCRHVFswtJrpbYKDE5axxd6++8JrF6oKYV/zKboa4tL0Di8vLnemoWjgDqhmZBS1BzXk/O8o/FvNIB0cc3TcMfxYgKnjMSwkVJgGxCs6GNc/SXPgjj91JTzJmjUYJPVQVBTedYAbxIT211Qw+lpNQl0EFDNfD3CY6HsgnZbJ1+Y4E/RG1oDQA2Tye6WTWgsJo4ketoJJ0m/7KqqlXODpgUXksgxEne/QjjsqQrr4lUS0QvZPyRWG2hCTdEUrLeL8CaG4s6BqO3Kx+e5pqsxsX3+a2eZU9dIrBmlMgpqOxeAU1qkSDdX+VZ/UaATFt1VNpSRGyLwtEVH+W2NWwHX2VOCGeq+aDQD9wQI+YVFhj6plWeXMecC1rhDmOLD8rj7EIBmHvZQ5aBI21DFf/UcQ6CS0TPS5A2/Cs47EapDrOI9/ZWmZVWswzKRf6tOogRIJ2O8jptCz1GnGx4lef/0fkDeyyxuc1AzzWQatKJ41NuJ+oIKoM3zzzSKlNjml3xACBI7d+yM88tuXR8uqjwddrphzTykpa2gbAMLjq7yNtPtyj/NcLEX7JVMSQfSyQdzwn/8ALBB2mP0Wclb0hIk8x5HxDZQ1nVA0QJ+SBGcCQJEdkf8AxFpEh0R1UYuPgRDSc4tksLXdFx+AZUE1NuyLw+PDjcSDyFyuHAfyoPYoyd60MDrZIx7QJ229u6lpZUGC0KdskX9LuQomEs3fI6DdU5zaoRJEWLE1jTM6gB0U4xMwoH4Zm7gZ4Up+x0SOeZ+JJDtaO6Sf2iA8dVcw2bMImjLmguYAdwgK2Ic3dkk872TqVao6ZsLQQuhxVDJKomWu2TvIkaSRfY/umecAYEuPt+qdWxNNoDX/AGT3F0hJ0QHAFhBafccImm90w+7YTatSnsxwJO10ZRLtOl8E9QonK+w8gj8NTeIMAArjcLTJGl0RwCpMXgtbdJcIncJn8MaLxHQpKarsTJQ943uAiGVA9tvS6YuohRdI06SBvdGYSmDUG0cxwUr62MNxdB1Ohc2cRa0z+sW2Kzjt1p/FT4pU26puTtxCyhcu7jVRNBrwnBxATSE2o0GbpsA+PRHZY/E4eKjxybg9FqcM87FVONa5r9bYkcHYjotIy2S0Uf8ADK7RIaQDa4+4KtcgyF4qMq1KnlhvrNjJLbhrY3JjfhBYrHATGqeGnjqJRGV5nUcRJc49OIWzkSem5difMo1CBuA8wJFxY+8Qlk+CBfL5DW3NpT/BmHNPC1HOElxiZPzG6hfj9Opsgz/THHUcLknKrZb0iPxJi21nSzbgwQSOhvH/AKq3Dm8OBgKRpJJ9NuExmMLXFpafcricsnZJO5zDeSY/RVeZZXQd6mP0k7wd0c3GMO7TJQGYYJrpLQZHGxKiMmn2JhWHwTdETMIb+GNuXEi9kNhCQfTqbHVXPmekDclN5RdgimpZVTYbnfZGYXCNggtMIk1IBaYJGygqVoMX2mR1VOTm0htDv4bHwmEQ2iR/UCUE7NWgtDgbqaqS4EtEjkcqGpXsRBVdUuA2TNzKeym+Q4hQ4Ws8D1MgdOqke8nbYcJ1WgHHHwQIRlF+qekbKqaBeRB4XDTe27QZP0RhHwCCHU3gwAYXVPRqWEm6SAoExNV9I6XscDt8Oy5h8S8TaV7TisHSriHta79VjM/8CuE1MM64Hwnf5dVtPg9FOBhKWL9RlsE9ksdh6dYAOY4HsE+tRqUn/wAxsHlMdmJnUCNI5KzSp6JohbkDAAA50g/oj3Um6YL3W6KHB44OeC52+yuKmlwgASpnOV1IKKetljHAEVHt+fK5Qy94EPql46dFNiMsBJl7/lsu4am0NI9VuSnlrT/wQ1mH0BwaHHm95V34fZN9MA8gj5zKrKNN7rjbZafIKADCNbdRO0X7gnZELvZUVsqfGBktbMw39VkaNeTC0viCrqqu+n0WcqUYdqXopUiiaooyf1Thsmwk0NBDHJlalPCYDCmD9lNDBHZc127QUbgMvaNmgKeirHCUpIjlCTEW9OoWYexgfQfnvKo3u1W+9gfnACtvFdVtJ9LDu28uSQeTfZUTMOCJa6wXPzS3RD7E/Elri1kmBvHKip486p1CekIrzZFwR07qF+APxbTCx1e0Id/Fg512jvHCKfXYRq+vshcTgC2AAL8hPpNsQRHuoaQEztDm+kCfumMDGibqKrSG9P8A8UAe5rDqEMmx7q6TAIfRY4WdBRGHosAEGTyqptLlzgTxwjW1WBu+kkfJTONeQO1cO3VYX+qE899MvAHsUZhMdMECRso8W5jrP+qUW1poAXL82LxpqN0kb90eyqHTEKGlSYW+m8fVdqvZGxHcJyir+0aO0XgSS36prK5aTH0U9PRHJnqgsRhxJeNoRGmwZwvm+ojskmtxDY3SWtv0B6vRxQG7ukfnKt6FaV5x/wA0k/GIjfp2I+ausmxxtL53gc/nZdzia2aHPMhpYlvqEOizh/nqvKs+8M+S4sfPboV6xluP1C4ROPy9lZul4noeQeyxlG+hNWfP5pEE6GzB5tHsrPC4p4OkXEfNXXjHwtUoy5o1MJ3CyrsW9n9JED8hZSja32ZtUWdXPGU2ukknpzKlwWasrsJAgjhZKs9h1Pdr1GYkWVj4WoHyy7Sb/dTPhjGGQjQBpLmmDINgPdazCQykah4Bm0EHgf6lU+U4ZzhdpHQ2KsPElTTSY07uufYbfnZHBG2jSPVmPxleXG6DrGy46kATHWUhsu8RFSMKaVGnO6/RSM7p5UjR+fdRzsFKw3SGT4dabw1Q11WDuPss3RHK2vg6mG+ZVInRTcfshAyl8U5vTq4lzSNnFrXRIkW+SrqDwDZpsOVw4wPLnOHMgzfspm1AbA77LzuXkvwZ2V2LzJrfdvClp5sxwEmDGyIr4APsQDIgqt/hrQIaD0kq1LjkhBlPEuJk2HvPz7I3SCJ3CpsPhyB6jPRPfjHNAbBJJtCylFt1ERbigBsYHSVEaTmgiQ4bgFVtfBvjW4kCZtv7J1LMXNMGn7d0lB+HYwusRY6QRyoHUWVAHbNBiFJhccXth7CJMGOEUMDTbGkE/NGWKp9hVkFLD6AQNuPdDYnDOcQSABzK6/DvDp1kRwdipfM8y1SwVVJOwBadZgGlroPVdpYJ7SXeYHA8HZQ4rK6c/HF0JQyp2pwFQubxda0ttMC1om/qgnsoX47S71AFuxXKOGcBd8KFmBcXTIc3fvKSafbAJHkm5bCSlAixAlJRr5/sRHRxJDr2j8srPDZnDt4/1ss7TqEAgnc2t/kImkb3AXrUa2ei5Rjhb1X/AHWowuPmx3XmWAxrbASHcd1eZfnJ1RM8HqIt81lItG8Ja8FrhIO4Kymf+FAQXUgCOkXH7o/C44WBInrsrmhXn5LKUVJUwaPIcwyNxbDm72gWhV9DA1mlrGMe5gIsAdl7PjMtpVDJF+ygZkoBEwY2OxCxXHJKiMCg8P4YctLLXvERvHP3WT8U4/XVJb8IsPYbLZ+KcW2hT8ph9TtzOw6LzfHvldXFCtg/QEXXXGykkFqI4GXXXcfJcZKfyVDGhBPakG/7TqYSGF4XeFsmNezAVCwgOf6QSJ91k8FTJIWr8RuFPDUaevSY1R+6mcsYtiZ56/CvYdVyQFI/EuluoBvKsi+CNXrnkKHMcMH+nqPmuFyv8jNkVOo5v8yZvsDsjDmUkam2O0dlV4TLHhxBnSe9kbVowQB8PHuioggslrwSQAE9tFsekgu7oOtg3GDrj+3qnYnAuADmPBNpWbS9gOo4d1Nzi5+oHbsUq5tqcBZVWms4kGRB2690S2uQNLxLRyrafYrCcJjCZP6JwzQN+KB06oTUPhpe/wBVDi6DWkvDZMXHdRhFtgW9Y6hMA2kIVuJIiW269PdVlHM2RDiWx/T1RbsVqALbtJiFS42tMAqtiKRmWyBuhKGJpbsaQOvBTK+HEFrQQHbnsmswwYIuWhVGCrsasJfWBaRp3G/RV2FzEtOlzTA5R+GzCmLGBZGU2UagJ2KnLC1JADU8cwgfskoXZQZsbJJ48f6hbK+b39kQ19kkl65oS06kknt90+liHBwhxneySShlI12U5k4wHQfktLSxQcJ1H2uEklkyiwwmKnY/VOzDNvLYesJJJRBnm+a441HFxVJi7hJJbmQFRYbyVJCSSTGchOphJJQMkZsiGDlJJIouMloaqjR3R3jzE03VQ2J0MAN4t2t/lJJZ8r+0mRl6GIaAA0bWum1sQQ6T8oSSXPKCU6MjuCx4uIN+pVgyswiCLBJJZ8qp6Hexj642aIjZCtJI1idRERNpSSUPQmMbiKuoh8QANkThxTLZFrcpJJy/HQHMNWpMdDd+sLmIpth0SL3+aSSEqdgQ1cvbo2aJ5i6FFUMIAEtG/BnqkktOFuSdjDcLi2vBDN+6bWxmiWlu64kqcFbQAv8AKcSCyDuSoqrC15c0w21h9kklHTEFMz9wEE3HZJJJafRiB//Z" alt="alpaca">
+                </section>
+                <section class="card-text">
+                    <h1 class="alpaca-name">Johnny Alpacaseed</h1>
+                    <div class="card-url">
+                        <p class="alpaca-site">http://www.johhnyalpacaseed.com</p>
+                    </div>
+                    <p class="card-para">FAVE SONG:</p>
+                    <div class="songs">
+                        <a class="song"  href="https://www.youtube.com/watch?v=khGmp7MJ2MI" target="_blank">Johnny Cash - Big Rock Candy Mountain</a>
+                    </div>
+                    <p class="card-para">ATTACHMENTS</p>
+                    <h2 class="attach-num">04</h2>
+                </section>
+            </article>
+            <article class="card card-2">
+                <section>
+                    <span class="viewer">
+                        <div class="views">Views</div>
+                        <div class="view-num">02</div>
+                    </span>
+                    <img class="next-svg" src="images/next.svg" alt="next button">
+                    <img class="images" src="https://media3.kobi5.com/wp-content/uploads/2018/01/ALPACA.jpg?x84800" alt="alpaca">
+                </section>
+                <section class="card-text">
+                    <h1 class="alpaca-name">Doris</h1>
+                    <div class="card-url">
+                        <p class="alpaca-site">http://www.underwaterbasketweaving.com</p>
+                    </div>
+                    <p class="card-para">FAVE SONG:</p>
+                    <div class="songs">
+                        <a class="song" href="https://www.youtube.com/watch?v=h7j8wa9sWOE" target="_blank">Doris Day - Dream a Little Dream of Me</a>
+                    </div>
+                    <p class="card-para">ATTACHMENTS</p>
+                    <h2 class="attach-num">10</h2>
+                </section>
+            </article>
+            <article class="card card-3">
+                <section>
+                    <span class="viewer">
+                        <div class="views">Views</div>
+                        <div class="view-num">9m</div>
+                    </span>
+                    <img class="next-svg" src="images/next.svg" alt="next button">
+                    <img class="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTamUiLCUn99Z8WN06iJSjcxBjixI-5YiU84Z1HYLZGU83Dz8ZOww" alt="alpaca">
+                </section>
+                <section class="card-text">
+                    <h1 class="alpaca-name">Weird Al-paca</h1>
+                    <div class="card-url">
+                        <p class="alpaca-site">http://www.weirdal.com</p>
+                    </div>
+                    <p class="card-para">FAVE SONG:</p>
+                    <div class="songs">
+                        <a class="song" href="">Rick Astley - Never Gonna Give You Up</a>
+                    </div>
+                    <p class="card-para">ATTACHMENTS</p>
+                    <h2 class="attach-num">09</h2>
+                </section>
+            </article>
+            <article class="card card-4">
+                <section>
+                    <span class="viewer">
+                        <div class="views">Views</div>
+                        <div class="view-num">03</div>
+                    </span>
+                    <img class="next-svg" src="images/next.svg" alt="next button">
+                    <img class="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSg-AFUCsnY6lqJZPybWCY9E-dbyHipYD__-fMvQXHxbKiWWhTn" alt="alpaca">
+                </section>  
+               <section class="card-text">
+                    <h1 class="alpaca-name">Theodore</h1>
+                    <div class="card-url">
+                        <p class="alpaca-site">http://wwww.ww2history.com</p>
+                    </div>
+                    <p class="card-para">FAVE SONG:</p>
+                    <div class="songs">
+                        <a class="song" href="https://www.youtube.com/watch?v=-mRn9chmRAY" target="_blank">John Phillips Sousa - Stars and Stripes Forever</a>
+                    </div>
+                    <p class="card-para">ATTACHMENTS</p>
+                    <h2 class="attach-num">11</h2>
+                </section>          
+            </article>
+            <article class="card card-5">
+                <section>
+                    <span class="viewer">
+                        <div class="views">Views</div>
+                        <div class="view-num">02</div>
+                    </span>
+                    <img class="next-svg" src="images/next.svg" alt="next button">
+                    <img class="images" src="https://grangesupply.com/wp-content/uploads/2017/04/Alpacas-and-Llamas-SM-4.jpg" alt="alpaca">
+                </section>
+                <section class="card-text">
+                    <h1 class="alpaca-name">Eugene</h1>
+                    <div class="card-url">
+                        <p class="alpaca-site">http://www.montanastatetouristdepartment.com</p>
+                    </div>
+                    <p class="card-para">FAVE SONG:</p>
+                    <div class="songs">
+                        <a class="song" href="https://www.youtube.com/watch?v=rTDzh9hi6h0" target="_blank">Sigur Ros - Samskeyti</a>
+                    </div>
+                    <p class="card-para">ATTACHMENTS</p>
+                    <h2 class="attach-num">01</h2>
+                </section>
+            </article>
+            <article class="card card-6">
+                <section>
+                    <span class="viewer">
+                        <div class="views">Views</div>
+                        <div class="view-num">01</div>
+                    </span>
+                    <img class="next-svg" src="images/next.svg" alt="next button">
+                    <img class="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmK-6FLq-qFmq4T5XYjVMNJzBUE_Vz2aewzKg-dgOiCJp4ScyeQA" alt="alpaca">
+                </section>
+                <section class="card-text">
+                    <h1 class="alpaca-name">Harumph</h1>
+                    <div class="card-url">
+                        <p class="alpaca-site">http://www.harumphmusic.com</p>
+                    </div>
+                    <p class="card-para">FAVE SONG:</p>
+                    <div class="songs">
+                        <a class="song" href="https://open.spotify.com/track/0DZHB9f51gcgf5OabGe4k0" target="_blank">Harumph - Devil's Road</a>
+                    </div>
+                    <p class="card-para">ATTACHMENTS</p>
+                    <h2 class="attach-num">07</h2>
+                </section>
+            </article>
+            <article class="card card-7">
+                <section>
+                    <span class="viewer">
+                        <div class="views">Views</div>
+                        <div class="view-num">05</div>
+                    </span>
+                    <img class="next-svg" src="images/next.svg" alt="next button">
+                    <img class="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGJOvsAStbJkKRmwj6kN49i1-BugDOPGIL1MNuV88q6GIbYKwOfw" alt="alpaca">
+                </section>
+                <section class="card-text">
+                    <h1 class="alpaca-name">Alpaca Punch</h1>
+                    <div class="card-url">
+                        <p class="alpaca-site">http://www.wwe.com</p>
+                    </div>
+                    <p class="card-para">FAVE SONG:</p>
+                    <div class="songs">
+                        <a class="song" href="https://www.youtube.com/watch?v=2PtvLTZS4Ik" target="_blank">Bill Conti - Gonna Fly Now</a>
+                    </div>
+                    <p class="card-para">ATTACHMENTS</p>
+                    <h2 class="attach-num">10</h2>
+                </section>
+            </article>
+            <article class="card card-8">
+                <section>
+                    <span class="viewer">
+                        <div class="views">Views</div>
+                        <div class="view-num">09</div>
+                    </span>
+                    <img class="next-svg" src="images/next.svg" alt="next button">
+                    <img class="images" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyjco89Qv2wbtsWdJ7VmSQoXtTWgnyrK6-Z-2swjvfn_ZzUyPv" alt="alpaca">
+                </section   >
+                <section class="card-text">
+                    <h1 class="alpaca-name">Abbigale Dawn</h1>
+                    <div class="card-url">
+                        <p class="alpaca-site">http://www.abbigaledawn.com</p>
+                    </div>
+                    <p class="card-para">FAVE SONG:</p>
+                    <div class="songs">
+                        <a class="song" href="https://open.spotify.com/track/51BDRfpfMYubwspfXE4DXF" target="_blank">Abbigale Dawn - Ex Boyfreind Blues</a>
+                    </div>
+                    <p class="card-para">ATTACHMENTS</p>
+                    <h2 class="attach-num">06</h2>
+                </section>
+            </article>
+        </aside>
+    </section>
+</body>
+</html>
